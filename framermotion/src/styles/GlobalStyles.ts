@@ -65,5 +65,16 @@ export default createGlobalStyle`
     background-color: var(--white);
     margin: .5rem;
     list-style: none;
-  }    
+  }   
+
+  button { 
+    background-color: var(--white);
+    padding: .5rem 1rem;
+    margin: 0 1rem 2rem 0;    
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  } 
 `;
