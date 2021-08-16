@@ -3,14 +3,9 @@ import styled from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --black: #000000;    
-    
-    --light-gray: #E1E1E6;
-    --gray: #A8A8B3;
+    --black: #000000;        
     --dark-gray: #121214;
-    --light-red: #FF3333;
-    --red: #C23E3C;
-    --yellow: #EBA417;
+    --blue: #0000FF;
     --white: #FFFFFF; 
   }
   * {
@@ -20,7 +15,7 @@ export default createGlobalStyle`
   }
   
   html, body, #root {  
-    max-height: 100vh;
+    max-height: 100%;
     max-width: 100%;
     margin: 0 auto;
     width: 100vw;
@@ -42,9 +37,25 @@ export default createGlobalStyle`
   body { 
     background: var(--dark-gray);
     color: var(--white);
+    padding: 3rem;
   }
 
   body, input, textarea, select, button {
     font: 400 1rem Roboto, sans-serif;
   }  
+
+  .box-container {
+    padding-bottom: 20rem;
+  }
+
+  .box {    
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
 `;

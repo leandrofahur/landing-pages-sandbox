@@ -1,16 +1,9 @@
-import { motion } from 'framer-motion';
+import { Box1 } from '../components/Box1';
 
 export default function Home() {
   return (
-    <motion.h1
-      initial={{ x: 0, y: 0 }}
-      animate={{ x: 10, y: 10, rotate: 360 }}
-      transition={{
-        ease: 'easeOut',
-        duration: 1,
-      }}
-    >
-      Nextjs
-    </motion.h1>
+    <>
+      <Box1 />
+    </>
   );
 }
