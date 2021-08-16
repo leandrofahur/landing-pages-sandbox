@@ -45,7 +45,7 @@ export default createGlobalStyle`
   }  
 
   .box-container {
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
   }
 
   .box {    
