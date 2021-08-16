@@ -58,4 +58,12 @@ export default createGlobalStyle`
     justify-content: center;
 
   }
+
+  .boxItem { 
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--white);
+    margin: .5rem;
+    list-style: none;
+  }    
 `;
