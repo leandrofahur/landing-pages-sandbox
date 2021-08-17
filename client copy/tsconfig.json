@@ -21,6 +21,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "../Business/next-env.d.ts",
+    "../Business/**/*.ts",
+    "../Business/**/*.tsx"
+  ],
+  "exclude": ["../Business/node_modules"]
 }
